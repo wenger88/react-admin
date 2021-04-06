@@ -8,7 +8,7 @@ const Nav = () => {
 
   useEffect(() => {
     (async () => {
-      const { data } = await axios.get('api/user');
+      const { data } = await axios.get('/api/user');
       setUser(new User(data.id, data.first_name, data.last_name, data.email));
     })();
   }, []);
