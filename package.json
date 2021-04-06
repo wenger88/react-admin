@@ -44,5 +44,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://nest-be.herokuapp.com"
+  "proxy": "https://nest-be.herokuapp.com/"
 }
